@@ -21,4 +21,7 @@ builder.Services.AddCodeFirstGrpcClient<IWeatherForecastService>(options =>
     });
 });
 
+// Register the Telerik services.
+builder.Services.AddTelerikBlazor();
+
 await builder.Build().RunAsync();

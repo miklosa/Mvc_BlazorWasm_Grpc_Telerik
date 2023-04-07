@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/MvcApp.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://blazor.cdn.telerik.com/blazor/4.1.0/kendo-theme-default/all.css" />
 </head>
 <body>
     <header>
@@ -55,6 +56,7 @@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
+            <script src="_content/Telerik.UI.for.Blazor/js/telerik-blazor.js" defer></script>
             <script src="_framework/blazor.webassembly.js"></script>
         </main>
     </div>

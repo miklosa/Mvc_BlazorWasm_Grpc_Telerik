@@ -12,6 +12,7 @@
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.15" />
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.15" PrivateAssets="all" />
 		<PackageReference Include="protobuf-net.Grpc.ClientFactory" Version="1.1.1" />
+		<PackageReference Include="Telerik.UI.for.Blazor" Version="4.1.0" />
 	</ItemGroup>
 
 	<ItemGroup>
