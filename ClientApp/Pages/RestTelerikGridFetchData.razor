@@ -13,7 +13,7 @@
 }
 else
 {
-    <TelerikGrid Data="@forecasts" Pageable="true">
+    <TelerikGrid Data="@forecasts" Pageable="true" FilterMode="@GridFilterMode.FilterRow">
         <GridColumns>
             <GridColumn Field="@(nameof(WeatherForecast.Date))" Title="Date" />
             <GridColumn Field="@(nameof(WeatherForecast.TemperatureC))" Title="Temp. (C)" />
